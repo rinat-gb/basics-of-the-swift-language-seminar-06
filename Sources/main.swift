@@ -47,7 +47,7 @@ class Table {
     let numOfSeats: Int
 
     // 3. У класса столика добавить свойство, в котором хранится пиццерия, в которой стоит столик.
-    var pizzeria: Pizzeria
+    weak var pizzeria: Pizzeria
 
     init(numOfSeats: Int, pizzeria: Pizzeria) {
         self.numOfSeats = numOfSeats
